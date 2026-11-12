@@ -180,7 +180,7 @@ end
 -- (только GET, сюда он ничего не пишет и твой репозиторий не трогает) и раскладывает файлы
 -- по локальной папке BTD_Macros того, кто запустил скрипт.
 -- Пустая ссылка — вся эта часть просто не выполняется, работает только локальная папка.
-local CLOUD_CONFIG_URL = "" -- например: "https://api.github.com/repos/USER/REPO/contents/BTD_Macros?ref=main"
+local CLOUD_CONFIG_URL = "https://api.github.com/repos/fffcfrffg-bot/Digger/contents/BTD_Macros?ref=main"
 local cloudRoutinesRaw = nil  -- содержимое облачного routines.json; разбирается позже, когда готова таблица routines
 
 do
